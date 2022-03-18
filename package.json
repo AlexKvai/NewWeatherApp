@@ -1,0 +1,27 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "private": "false",
+  "description": "CLI fot getting weather",
+  "main": "index.js",
+  "browser": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "weather"
+  ],
+  "author": "Alex Kvai",
+  "license": "ISC",
+  "homepage": "https://github.com/AlexKvai",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": "https://github.com/AlexKvai",
+    "email": ""
+  }
+}
