@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "private": "false",
   "description": "CLI fot getting weather",
-  "main": "index.js",
-  "browser": "index.js",
-  "bin": "./index.js",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,6 +24,10 @@
   },
   "bugs": {
     "url": "https://github.com/AlexKvai",
-    "email": ""
-  }
+    "email": "alexp-2004@mail.ru"
+  },
+  "dependencies": {
+    "axios": "^0.26.1"
+  },
+  "devDependencies": {}
 }
